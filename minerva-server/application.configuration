@@ -1,0 +1,12 @@
+-- Common configuration
+app.name=minerva - the game -- server
+app.version=1.0
+
+-- Server configuration
+server.name=minerva
+server.port=50002
+server.welcome=Welcome, Master. Yes, i'm up and running ... :)
+
+-- Directory configuration (never forget the slash at the end of the path)
+directory.assets.worlds=assets/worlds/
+directory.importer.workspace=importer-workspace/

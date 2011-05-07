@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<world>
+	<meta>
+		<token>origworld</token>
+		<name>Risiko-Welt von Hasbro</name>
+		<author>Carina Strempel, Christian Bollmann, André König</author>
+		<description>Dies ist die original Risiko-Welt von Hasbro. Die Welt besteht aus 42 Ländern verteilt auf 6 Kontinenten.</description>
+		<version>1.0</version>
+
+		<map>1bc5b77f3e50b7fbe12c792ee438da45.png</map>
+		<map-underlay>b44a59383b3123a747d139bd0e71d2df.png</map-underlay>
+		<thumbnail>070cf6787aa56fbdaa1b2fd98708c34c.png</thumbnail>
+	</meta>
+
+	<continents>
+		<continent id="0" name="Europa" />
+		<continent id="1" name="Asien" />
+		<continent id="2" name="Australien" />
+		<continent id="3" name="Afrika" />
+		<continent id="4" name="Süd-Amerika" />
+		<continent id="5" name="Nord-Amerika" />
+	</continents>
+
+	<countries>
+		<!-- Europa -->
+		<country id="0" continent="0" color="598526" token="sk" name="Skandinavien" neighbours="1, 2, 5, 6" />
+		<country id="1" continent="0" color="ABA000" token="ua" name="Ukraine" neighbours="0, 2, 3, 7, 17, 18" />
+		<country id="2" continent="0" color="A36209" token="me" name="Mittel-Europa" neighbours="0, 1, 3, 4, 6" />
+		<country id="3" continent="0" color="EE135B" token="se" name="Süd-Europa" neighbours="1, 2, 4, 17, 23, 24" />
+		<country id="4" continent="0" color="9E090C" token="we" name="West-Europa" neighbours="2, 3, 6, 23" />
+		<country id="5" continent="0" color="1A1364" token="is" name="Island" neighbours="0, 6, 41" />
+		<country id="6" continent="0" color="177B2F" token="uk" name="Groß-Britanien" neighbours="0, 2, 4, 5" />
+		
+		<!-- Asien -->
+		<country id="7" continent="1" color="8DC73E" token="ur" name="Ural" neighbours="1, 8, 14, 18" />
+		<country id="8" continent="1" color="F9941C" token="si" name="Sibirien" neighbours="7, 9, 11, 12, 14" />
+		<country id="9" continent="1" color="EE1A24" token="ja" name="Jakutien" neighbours="8, 10, 11" />
+		<country id="10" continent="1" color="A864A9" token="ka" name="Kamtschatka" neighbours="9, 11, 12, 13, 37" />
+		<country id="11" continent="1" color="F16EAA" token="ir" name="Irkutsk" neighbours="8, 9, 10, 12" />
+		<country id="12" continent="1" color="605CA9" token="ml" name="Mongolei" neighbours="8, 10, 11, 13, 14" />
+		<country id="13" continent="1" color="FEC689" token="jp" name="Japan" neighbours="10, 12" />
+		<country id="14" continent="1" color="3CB878" token="cn" name="China" neighbours="7, 8, 12, 15, 16, 18" />
+		<country id="15" continent="1" color="FFF668" token="sia" name="Siam" neighbours="14, 16, 19" />
+		<country id="16" continent="1" color="7CC576" token="in" name="Indien" neighbours="14, 15, 17, 18" />
+		<country id="17" continent="1" color="662C91" token="mo" name="Mittlerer-Osten" neighbours="1, 3, 16, 18, 24, 25" />
+		<country id="18" continent="1" color="00A651" token="af" name="Afghanistan" neighbours="1, 7, 14, 16, 17" />
+		
+		<!-- Australien -->
+		<country id="19" continent="2" color="F88E56" token="id" name="Indonesien" neighbours="15, 20, 21" />
+		<country id="20" continent="2" color="F59AC2" token="ng" name="Neu-Guinea" neighbours="19, 21, 22" />
+		<country id="21" continent="2" color="A186BE" token="wa" name="West-Australien" neighbours="19, 20, 22" />
+		<country id="22" continent="2" color="7da7d9" token="oa" name="Ost-Australien" neighbours="20, 21" />
+
+		<!-- Afrika -->
+		<country id="23" continent="3" color="92268F" token="na" name="Nordwest-Afrika" neighbours="3, 4, 24, 25, 26, 30" />
+		<country id="24" continent="3" color="9379BE" token="eg" name="Ägypten" neighbours="3, 17, 23, 25" />
+		<country id="25" continent="3" color="2E3092" token="oaf" name="Ost-Afrika" neighbours="17, 23, 24, 26, 27, 28" />
+		<country id="26" continent="3" color="0054A6" token="cd" name="Kongo" neighbours="23, 25, 27" />
+		<country id="27" continent="3" color="0072BC" token="sa" name="Süd-Afrika" neighbours="25, 26, 28" />
+		<country id="28" continent="3" color="A3D49C" token="mg" name="Madagaskar" neighbours="25, 27" />
+
+		<!-- Süd-Amerika -->
+		<country id="29" continent="4" color="9E005D" token="ar" name="Argentinien" neighbours="30, 31" />
+		<country id="30" continent="4" color="827B00" token="br" name="Brasilien" neighbours="23, 29, 31, 32" />
+		<country id="31" continent="4" color="790000" token="pe" name="Peru" neighbours="29, 30, 32" />
+		<country id="32" continent="4" color="005725" token="ve" name="Venezuela" neighbours="30, 31, 33" />
+
+		<!-- Nord-Amerika -->
+		<country id="33" continent="5" color="005B7F" token="ma" name="Mittel-Amerika" neighbours="32, 34, 35" />
+		<country id="34" continent="5" color="31004A" token="osta" name="Oststaaten" neighbours="33, 35, 39, 40" />
+		<country id="35" continent="5" color="7D5024" token="westa" name="Weststaaten" neighbours="33, 34, 36, 39" />
+		<country id="36" continent="5" color="00FF00" token="al" name="Alberta" neighbours="35, 37, 38, 39" />
+		<country id="37" continent="5" color="FF0000" token="ice" name="Alaska" neighbours="10, 36, 38" />
+		<country id="38" continent="5" color="FFFF00" token="nt" name="Nordwest-Territorium" neighbours="36, 37, 39, 41" />
+		<country id="39" continent="5" color="00FFFF" token="on" name="Ontario" neighbours="34, 35, 36, 38, 40, 41" />
+		<country id="40" continent="5" color="FF00FF" token="qu" name="Quebec" neighbours="34, 39, 41" />
+		<country id="41" continent="5" color="0000FF" token="dk" name="Grönland" neighbours="5, 38, 39, 40" />
+	</countries>
+</world>

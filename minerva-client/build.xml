@@ -1,0 +1,12 @@
+<project name="minerva-game" basedir=".">
+	<property file="build.properties" />
+
+    <target name="clean">
+        <delete dir="${build.jar.dir}"/>
+    </target>
+
+    <target name="jar" depends="clean">
+        <mkdir dir="${build.jar.dir}"/>
+        <jar destfile="${build.jar}" basedir="${build.classes.dir}" />
+    </target>
+</project>

@@ -1,0 +1,27 @@
+<project name="minerva-commons" basedir="." default="jar">
+	<property file="build.properties" />
+
+    <target name="clean">
+        <delete dir="${build.jar.dir}"/>
+    </target>
+
+    <target name="jar" depends="clean">
+        <mkdir dir="${build.jar.dir}"/>
+        <jar destfile="${build.jar}" basedir="${build.classes.dir}" />
+    </target>
+
+    <target name="clean-importable-worlds">
+              <delete file="${importer.dir}/original.world"/>
+              <delete file="${importer.dir}/germany.world"/>
+    </target>
+            
+    <target name="build-importable-worlds" depends="clean-importable-worlds, _build-importable-world-original, _build-importable-world-germany"></target>
+    
+    <target name="_build-importable-world-original">
+            <zip destfile="${importer.dir}/original.world" basedir="${importer.original.dir}" excludes="${importer.excludes}" />
+    </target>
+
+    <target name="_build-importable-world-germany">
+            <zip destfile="${importer.dir}/germany.world" basedir="${importer.germany.dir}" excludes="${importer.excludes}" />
+    </target>
+</project>

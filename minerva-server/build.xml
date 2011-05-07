@@ -1,0 +1,20 @@
+<project name="minerva-server" basedir="." default="install-database">
+	<property file="build.properties" />
+
+	<path id="libraries">
+	    <fileset dir="${lib.dir}">
+	    	<include name="*.jar"/>
+		</fileset>
+	</path>	
+
+	<target name="clean-database">
+    	<delete dir="${db.dir}"/>
+  	</target>
+ 
+	<target name="install-database" depends="clean-database">
+    	<java fork="true" classname="org.apache.derby.tools.ij" classpathref="libraries">
+      		<sysproperty key="ij.connection.myDB" value="jdbc:derby:${db.dir};create=true" />
+      		<arg value="${sql.dir}/databasemodel.sql"/>
+		</java>
+	</target>
+</project>

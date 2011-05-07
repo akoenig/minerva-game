@@ -1,0 +1,11 @@
+de.hochschule.bremen.minerva.client
+de.hochschule.bremen.minerva.client.core
+de.hochschule.bremen.minerva.client.manager
+de.hochschule.bremen.minerva.client.ui
+de.hochschule.bremen.minerva.client.ui.gui
+de.hochschule.bremen.minerva.client.ui.gui.controls
+de.hochschule.bremen.minerva.client.ui.gui.listener
+de.hochschule.bremen.minerva.client.ui.gui.panels
+de.hochschule.bremen.minerva.client.ui.gui.panels.subpanels
+de.hochschule.bremen.minerva.client.ui.gui.resources
+de.hochschule.bremen.minerva.client.vo

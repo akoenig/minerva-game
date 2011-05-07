@@ -1,0 +1,13 @@
+-- Common configuration
+app.name=minerva - the game
+app.version=1.0
+app.icon.path=assets/userinterface/app-icon.png
+
+-- Directory configuration
+directory.assets.userinterface=assets/userinterface/
+directory.assets.userinterface.fileextension=.png
+
+-- Server configuration
+server.name=minerva
+server.host=localhost
+server.port=50002

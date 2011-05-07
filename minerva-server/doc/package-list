@@ -1,0 +1,14 @@
+de.hochschule.bremen.minerva.server
+de.hochschule.bremen.minerva.server.core.logic
+de.hochschule.bremen.minerva.server.manager
+de.hochschule.bremen.minerva.server.net
+de.hochschule.bremen.minerva.server.persistence
+de.hochschule.bremen.minerva.server.persistence.db
+de.hochschule.bremen.minerva.server.persistence.db.exceptions
+de.hochschule.bremen.minerva.server.persistence.db.handler
+de.hochschule.bremen.minerva.server.persistence.exceptions
+de.hochschule.bremen.minerva.server.persistence.file
+de.hochschule.bremen.minerva.server.persistence.file.handler
+de.hochschule.bremen.minerva.server.persistence.service
+de.hochschule.bremen.minerva.server.util
+de.hochschule.bremen.minerva.server.vo

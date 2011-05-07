@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<world>
+	<meta>
+		<token>germany</token>
+		<name>Deutschland - Die 16 Bundesländer</name>
+		<author>Carina Strempel</author>
+		<description>Die sechzehn deutschen Bundesländer</description>
+		<version>1.0</version>
+
+		<map>0cbaa0a9e4c7e504a840c2cd213cc277.png</map>
+		<map-underlay>f837cbc94684d27469ba3ec3e14a7118.png</map-underlay>
+		<thumbnail>0fc89a14949da2f327ab1067dc9417f4.png</thumbnail>
+	</meta>
+
+	<continents>
+		<continent id="0" name="Norddeutschland" />
+		<continent id="1" name="Ostdeutschland" />
+		<continent id="2" name="Süddeutschland" />
+		<continent id="3" name="Westdeutschland" />
+	</continents>
+
+	<countries>
+		<!-- Norddeutschland -->
+		<country id="0" continent="0" color="009EE0" token="hb" name="Bremen" neighbours="3" />
+		<country id="1" continent="0" color="009036" token="hh" name="Hamburg" neighbours="3, 4" />
+		<country id="2" continent="0" color="FFEC00" token="mv" name="Mecklenburg-Vorpommern" neighbours="3, 4, 6" />
+		<country id="3" continent="0" color="E2007A" token="ni" name="Niedersachsen" neighbours="0, 1, 2, 4, 7, 9, 12, 13" />
+		<country id="4" continent="0" color="FF0000" token="sh" name="Schleswig-Holstein" neighbours="1, 2, 3" />
+	
+		<!-- Ostdeutschland -->
+		<country id="5" continent="1" color="FFF59B" token="be" name="Berlin" neighbours="6" />
+		<country id="6" continent="1" color="F29A79" token="bb" name="Brandenburg" neighbours="2, 5, 7, 8" />
+		<country id="7" continent="1" color="B0D398" token="st" name="Sachsen-Anhalt" neighbours="3, 6, 8, 9" />
+		<country id="8" continent="1" color="84D0F0" token="sn" name="Sachen" neighbours="6, 7, 9, 10" />
+		<country id="9" continent="1" color="510045" token="th" name="Thüringen" neighbours="3, 7, 8, 10, 13" />
+		
+		<!-- Süddeutschland -->
+		<country id="10" continent="2" color="CBA574" token="by" name="Bayern" neighbours="8, 9, 11, 13" />
+		<country id="11" continent="2" color="277621" token="bw" name="Baden-Württemberg" neighbours="10, 13, 14" />
+		
+		<!-- Westdeutschland -->
+		<country id="12" continent="3" color="162983" token="nw" name="Nordrhein-Westfalen" neighbours="3, 13, 14" />
+		<country id="13" continent="3" color="7C695A" token="he" name="Hessen" neighbours="3, 9, 10, 11, 12, 14" />
+		<country id="14" continent="3" color="F29400" token="rp" name="Rheinland-Pfalz" neighbours="11, 12, 13, 15" />
+		<country id="15" continent="3" color="7A032A" token="sl" name="Saarland" neighbours="14" />
+	</countries>
+</world>
